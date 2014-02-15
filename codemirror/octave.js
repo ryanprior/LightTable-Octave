@@ -17,13 +17,15 @@ CodeMirror.defineMode("octave", function() {
     'sqrt', 'tan', 'reshape', 'break', 'zeros', 'default', 'margin', 'round', 'ones',
     'rand', 'syn', 'ceil', 'floor', 'size', 'clear', 'zeros', 'eye', 'mean', 'std', 'cov',
     'det', 'eig', 'inv', 'norm', 'rank', 'trace', 'expm', 'logm', 'sqrtm', 'linspace', 'plot',
-    'title', 'xlabel', 'ylabel', 'legend', 'text', 'meshgrid', 'mesh', 'num2str'
+    'title', 'xlabel', 'ylabel', 'legend', 'text', 'grid', 'meshgrid', 'mesh', 'num2str',
+    'fft', 'ifft', 'arrayfun', 'cellfun', 'input', 'fliplr', 'flipud'
   ]);
 
   var keywords = wordRegexp([
     'return', 'case', 'switch', 'else', 'elseif', 'end', 'endif', 'endfunction',
     'if', 'otherwise', 'do', 'for', 'while', 'try', 'catch', 'classdef', 'properties', 'events',
-    'methods', 'global', 'persistent', 'endfor', 'endwhile', 'printf', 'disp', 'until', 'continue'
+    'methods', 'global', 'persistent', 'endfor', 'endwhile', 'printf', 'sprintf', 'disp', 'until',
+    'continue'
   ]);
 
 
